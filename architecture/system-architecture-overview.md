@@ -12,7 +12,7 @@ flowchart TB
     end
 
     subgraph Application["Application Layer"]
-        API["Flask API"]
+        API["Node.js API"]
         Engine["Decision Engine"]
         Gray["Gray Area Logic"]
     end
@@ -35,7 +35,7 @@ flowchart TB
 | Layer | Components | Role |
 |-------|------------|------|
 | **Presentation** | React, JavaScript, CSS | Agent input, decision output display, status feedback |
-| **Application** | Flask, Decision Engine | Request handling, routing logic, confidence scoring |
+| **Application** | Node.js, Express, Decision Engine | Request handling, routing logic, confidence scoring |
 | **Decision Logic** | Custom scoring, Gray Area module | Parse signals, validate confidence, clarify ambiguity |
 | **Data** | MongoDB, case-based design | Persist cases, metadata, and pattern references |
 

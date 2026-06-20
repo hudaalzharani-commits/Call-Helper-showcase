@@ -93,7 +93,7 @@ Full documentation: [Decision Pipeline](./architecture/decision-pipeline.md)
 
 ```mermaid
 flowchart TB
-    UI["React Agent UI"] --> API["Flask API"]
+    UI["React Agent UI"] --> API["Node.js API"]
     API --> Engine["Decision Engine"]
     Engine --> Gray["Gray Area Logic"]
     Engine --> DB["MongoDB / Case Store"]
@@ -102,7 +102,7 @@ flowchart TB
 | Layer | Technologies |
 |-------|--------------|
 | Frontend | React, JavaScript, CSS |
-| Backend | Python, Flask |
+| Backend | Node.js, Express |
 | Engine | Custom routing logic, scoring engine, Gray Area module |
 | Data | MongoDB, case-based design, keyword matching, metadata filtering |
 | Design | Figma, Miro, UI flow design, logic mapping |
@@ -138,7 +138,7 @@ Portfolio repository: [huda-portfolio](https://github.com/hudaalzharani-commits/
 ## Technologies Used
 
 ### Core — Backend & Engine
-`Python` · `Flask` · Decision Routing Logic · Custom Scoring Engine · Gray Area Logic
+`Node.js` · `Express` · Decision Routing Logic · Custom Scoring Engine · Gray Area Logic
 
 ### Core — Frontend
 `React` · `JavaScript` · `CSS`
