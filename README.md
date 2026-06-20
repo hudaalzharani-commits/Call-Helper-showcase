@@ -113,15 +113,41 @@ Full documentation: [System Architecture Overview](./architecture/system-archite
 
 ## Screenshots
 
-Interactive preview is available via the portfolio demo. Static captures can be added to [`screenshots/`](./screenshots/).
+Visual captures from the **Call Helper** application UI — start flow, authentication, branding, and agent dashboard.
 
-| Preview | Link |
-|---------|------|
-| **Live Decision Engine Demo** | [Open Demo →](https://hudaalzharani-commits.github.io/huda-portfolio/#demo) |
-| **Before vs With CH** | [Open Section →](https://hudaalzharani-commits.github.io/huda-portfolio/#bva) |
-| **Project Overview** | [Open Section →](https://hudaalzharani-commits.github.io/huda-portfolio/#project) |
+### Start Page
 
-> Add PNG captures to `screenshots/` using the naming guide in [screenshots/README.md](./screenshots/README.md).
+Landing screen where agents enter the system.
+
+![CH Start Page](./screenshots/01-start-page.png)
+
+### Login
+
+Secure sign-in for agents and administrators.
+
+![CH Login Page](./screenshots/02-login-page.png)
+
+### Logo
+
+Call Helper brand mark used across the application.
+
+<p align="center">
+  <img src="./screenshots/03-logo.png" alt="Call Helper Logo" width="280"/>
+</p>
+
+Vector asset: [`assets/ch-logo.svg`](./assets/ch-logo.svg)
+
+### Dashboard
+
+Operational dashboard — live indicators, services rail, and agent workspace after login.
+
+![CH Dashboard](./screenshots/04-dashboard.png)
+
+---
+
+**Interactive demo:** [Portfolio — CH Decision Engine](https://hudaalzharani-commits.github.io/huda-portfolio/#demo)
+
+All captures live in [`screenshots/`](./screenshots/).
 
 ---
 
@@ -191,7 +217,8 @@ Architecture, flows, and product rationale are fully documented here. Source acc
 Call-Helper-showcase/
 ├── README.md                          # Project showcase (this file)
 ├── assets/
-│   └── ch-project-banner.svg          # Repository banner
+│   ├── ch-project-banner.svg          # Repository banner
+│   └── ch-logo.svg                    # Brand logo (vector)
 ├── architecture/
 │   ├── system-architecture-overview.md
 │   ├── decision-pipeline.md
@@ -203,7 +230,11 @@ Call-Helper-showcase/
 │   ├── before-vs-with-ch.md
 │   └── glossary.md
 └── screenshots/
-    └── README.md                      # Screenshot naming guide
+    ├── 01-start-page.png
+    ├── 02-login-page.png
+    ├── 03-logo.png
+    ├── 04-dashboard.png
+    └── README.md
 ```
 
 ---
