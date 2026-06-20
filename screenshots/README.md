@@ -1,29 +1,25 @@
 # Screenshots
 
-Application UI captures for the Call Helper (CH) showcase.
+English UI captures for the Call Helper (CH) showcase (data blurred on dashboard).
 
 | File | Screen |
 |------|--------|
-| `01-start-page.png` | Start / landing page |
-| `02-login-page.png` | Login page |
-| `03-logo.png` | Logo mark |
-| `04-dashboard.png` | Live indicators dashboard — **This month** (English, data blurred) |
+| `en-start-page.png` | Start / landing page |
+| `en-login-page.png` | Login page (English) |
+| `en-logo.png` | Logo mark |
+| `en-dashboard-month.png` | Live indicators — **This month** |
 
 ## Regenerating captures
 
-From the showcase repo (with Call-Helper running locally):
+From Call-Helper (app running locally):
 
 ```bash
-cd Call-Helper && npm run dev
-# in another terminal:
-cd Call-Helper-showcase
-CH_APP_URL=http://localhost:3000 node scripts/capture-screenshots.mjs
+cd Call-helper-main
+CH_APP_URL=http://localhost:3002 node scripts/capture-showcase.mjs
 ```
 
-Use the port Vite prints if 3000 is busy (e.g. `http://localhost:3001`).
+Or from this repo (requires Playwright in Call-helper-main):
 
-## Notes
-
-- Captures are taken at **1440×900** with 2× device scale for sharp GitHub README display.
-- No credentials or internal IDs are shown in public screenshots.
-- Demo login used only for local capture — not exposed in the repository.
+```bash
+CH_APP_URL=http://localhost:3002 node scripts/capture-screenshots.mjs
+```

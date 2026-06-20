@@ -105,11 +105,11 @@ async function main() {
   await page.goto(BASE, { waitUntil: 'networkidle', timeout: 120_000 });
   await page.waitForSelector('#start-btn', { timeout: 60_000 });
   await page.waitForTimeout(1500);
-  await screenshot(page, '01-start-page.png');
+  await screenshot(page, 'en-start-page.png');
 
   const logo = page.locator('.logo-block').first();
   if (await logo.count()) {
-    await logo.screenshot({ path: path.join(OUT, '03-logo.png') });
+    await logo.screenshot({ path: path.join(OUT, 'en-logo.png') });
   }
 
   console.log('Login page…');
@@ -117,7 +117,7 @@ async function main() {
   await page.waitForSelector('#emailOrUsername', { timeout: 15_000 });
   await forceEnglish(page);
   await page.waitForTimeout(1200);
-  await screenshot(page, '02-login-page.png');
+  await screenshot(page, 'en-login-page.png');
 
   console.log('Dashboard (This month)…');
   await page.fill('#emailOrUsername', 'admin');
@@ -129,7 +129,7 @@ async function main() {
   await page.waitForSelector('header.topbar', { timeout: 30_000 });
   await page.getByRole('tab', { name: 'This month' }).click();
   await page.waitForTimeout(2000);
-  await screenshot(page, '04-dashboard.png', { maskData: true });
+  await screenshot(page, 'en-dashboard-month.png', { maskData: true });
 
   await browser.close();
   console.log('Done:', OUT);

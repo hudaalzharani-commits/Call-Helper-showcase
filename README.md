@@ -115,24 +115,26 @@ Full documentation: [System Architecture Overview](./architecture/system-archite
 
 English UI captures from the **Call Helper** application — start flow, authentication, branding, and live dashboard (**This month** filter). Charts and KPI values are blurred so no operational data is visible.
 
+> Images use new filenames to avoid GitHub CDN cache serving older Arabic captures.
+
 ### Start Page
 
 Landing screen where agents enter the system.
 
-![CH Start Page](./screenshots/01-start-page.png)
+![CH Start Page](https://raw.githubusercontent.com/hudaalzharani-commits/Call-Helper-showcase/main/screenshots/en-start-page.png)
 
 ### Login
 
 Secure sign-in for agents and administrators.
 
-![CH Login Page](./screenshots/02-login-page.png)
+![CH Login Page](https://raw.githubusercontent.com/hudaalzharani-commits/Call-Helper-showcase/main/screenshots/en-login-page.png)
 
 ### Logo
 
 Call Helper brand mark used across the application.
 
 <p align="center">
-  <img src="./screenshots/03-logo.png" alt="Call Helper Logo" width="280"/>
+  <img src="https://raw.githubusercontent.com/hudaalzharani-commits/Call-Helper-showcase/main/screenshots/en-logo.png" alt="Call Helper Logo" width="280"/>
 </p>
 
 Vector asset: [`assets/ch-logo.svg`](./assets/ch-logo.svg)
@@ -141,7 +143,7 @@ Vector asset: [`assets/ch-logo.svg`](./assets/ch-logo.svg)
 
 Operational dashboard — live indicators with **This month** filter, services rail, and agent workspace after login.
 
-![CH Dashboard — This month](./screenshots/04-dashboard.png)
+![CH Dashboard — This month](https://raw.githubusercontent.com/hudaalzharani-commits/Call-Helper-showcase/main/screenshots/en-dashboard-month.png)
 
 ---
 
@@ -230,10 +232,10 @@ Call-Helper-showcase/
 │   ├── before-vs-with-ch.md
 │   └── glossary.md
 └── screenshots/
-    ├── 01-start-page.png
-    ├── 02-login-page.png
-    ├── 03-logo.png
-    ├── 04-dashboard.png
+    ├── en-start-page.png
+    ├── en-login-page.png
+    ├── en-logo.png
+    ├── en-dashboard-month.png
     └── README.md
 ```
 
