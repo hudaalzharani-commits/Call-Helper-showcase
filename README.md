@@ -113,9 +113,7 @@ Full documentation: [System Architecture Overview](./architecture/system-archite
 
 ## Screenshots
 
-English UI captures from the **Call Helper** application — start flow, authentication, branding, and live dashboard (**This month** filter). Charts and KPI values are blurred so no operational data is visible.
-
-> Images use new filenames to avoid GitHub CDN cache serving older Arabic captures.
+English UI captures from the **Call Helper** application — onboarding flow, agent workspace, and admin operations.
 
 ### Start Page
 
@@ -139,11 +137,23 @@ Call Helper brand mark used across the application.
 
 Vector asset: [`assets/ch-logo.svg`](./assets/ch-logo.svg)
 
-### Dashboard
+### Live Indicators (Dashboard)
 
-Operational dashboard — live indicators with **This month** filter, services rail, and agent workspace after login.
+Operational dashboard — live indicators with **This month** filter and services rail.
 
-![CH Dashboard — This month](https://raw.githubusercontent.com/hudaalzharani-commits/Call-Helper-showcase/main/screenshots/en-dashboard-month.png)
+![Live indicators — This month](https://raw.githubusercontent.com/hudaalzharani-commits/Call-Helper-showcase/main/screenshots/en-live-indicators-month.png)
+
+### Call Assistant
+
+Smart Call Helper — agent workspace for case analysis and guided responses.
+
+![Call Assistant](https://raw.githubusercontent.com/hudaalzharani-commits/Call-Helper-showcase/main/screenshots/en-call-assistant.png)
+
+### Admin Dashboard
+
+Admin panel — operational pulse, intelligence center, and system management.
+
+![Admin dashboard](https://raw.githubusercontent.com/hudaalzharani-commits/Call-Helper-showcase/main/screenshots/en-admin-dashboard.png)
 
 ---
 
@@ -235,7 +245,9 @@ Call-Helper-showcase/
     ├── en-start-page.png
     ├── en-login-page.png
     ├── en-logo.png
-    ├── en-dashboard-month.png
+    ├── en-live-indicators-month.png
+    ├── en-call-assistant.png
+    ├── en-admin-dashboard.png
     └── README.md
 ```
 
