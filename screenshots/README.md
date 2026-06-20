@@ -7,7 +7,7 @@ Application UI captures for the Call Helper (CH) showcase.
 | `01-start-page.png` | Start / landing page |
 | `02-login-page.png` | Login page |
 | `03-logo.png` | Logo mark |
-| `04-dashboard.png` | Agent dashboard (after login) |
+| `04-dashboard.png` | Live indicators dashboard — **This month** (English, data blurred) |
 
 ## Regenerating captures
 

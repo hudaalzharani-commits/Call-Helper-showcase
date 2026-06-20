@@ -113,7 +113,7 @@ Full documentation: [System Architecture Overview](./architecture/system-archite
 
 ## Screenshots
 
-Visual captures from the **Call Helper** application UI — start flow, authentication, branding, and agent dashboard.
+English UI captures from the **Call Helper** application — start flow, authentication, branding, and live dashboard (**This month** filter). Charts and KPI values are blurred so no operational data is visible.
 
 ### Start Page
 
@@ -139,9 +139,9 @@ Vector asset: [`assets/ch-logo.svg`](./assets/ch-logo.svg)
 
 ### Dashboard
 
-Operational dashboard — live indicators, services rail, and agent workspace after login.
+Operational dashboard — live indicators with **This month** filter, services rail, and agent workspace after login.
 
-![CH Dashboard](./screenshots/04-dashboard.png)
+![CH Dashboard — This month](./screenshots/04-dashboard.png)
 
 ---
 
