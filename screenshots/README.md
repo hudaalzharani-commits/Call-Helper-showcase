@@ -8,7 +8,7 @@ Application UI captures for the Call Helper (CH) showcase.
 | `en-login-page.png` | Login page (English) |
 | `en-logo.png` | Logo mark |
 | `en-live-indicators-month.png` | Live indicators — **This month** |
-| `en-call-assistant-lines.png` | Call Assistant — line blur; entity type masked |
+| `en-call-assistant-final.png` | Call Assistant — entity type fully hidden |
 | `en-admin-dashboard.png` | Admin dashboard |
 
 ## Regenerating start / login / logo
