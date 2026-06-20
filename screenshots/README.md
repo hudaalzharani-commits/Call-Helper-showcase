@@ -8,7 +8,7 @@ Application UI captures for the Call Helper (CH) showcase.
 | `en-login-page.png` | Login page (English) |
 | `en-logo.png` | Logo mark |
 | `en-live-indicators-month.png` | Live indicators — **This month** |
-| `ch-call-assistant-jun2026.png` | Call Assistant — entity type hidden (no Umrah company) |
+| `call-assistant-showcase.jpg` | Call Assistant — entity type hidden |
 | `en-admin-dashboard.png` | Admin dashboard |
 
 ## Regenerating start / login / logo
