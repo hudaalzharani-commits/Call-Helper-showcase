@@ -147,7 +147,7 @@ Operational dashboard — live indicators with **This month** filter and service
 
 Smart Call Helper — agent workspace for case analysis and guided responses.
 
-![Call Assistant](https://raw.githubusercontent.com/hudaalzharani-commits/Call-Helper-showcase/main/screenshots/en-call-assistant-lines.png?v=2)
+![Call Assistant](https://raw.githubusercontent.com/hudaalzharani-commits/Call-Helper-showcase/main/screenshots/en-call-assistant-lines.png?v=3)
 
 ### Admin Dashboard
 
