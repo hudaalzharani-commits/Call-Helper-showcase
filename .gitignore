@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+.env
+.env.*
+node_modules/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+
+# Source code stays in private repositories
+src/
+source/
+private/

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Call Helper CH banner">
+  <rect width="1200" height="400" fill="#1a1814"/>
+  <text x="80" y="160" fill="#f5f1ea" font-family="Georgia, serif" font-size="72" font-weight="400">Call Helper</text>
+  <text x="80" y="220" fill="#8c6a4f" font-family="Georgia, serif" font-size="36" font-style="italic">Operational Decision Support System</text>
+  <text x="80" y="300" fill="rgba(245,241,234,0.35)" font-family="system-ui, sans-serif" font-size="18" letter-spacing="4">INPUT ’ FILTER ’ SCORE ’ DECIDE</text>
+  <rect x="80" y="330" width="480" height="2" fill="rgba(140,106,79,0.5)"/>
+</svg>
