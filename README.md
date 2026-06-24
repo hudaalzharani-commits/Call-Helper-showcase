@@ -113,7 +113,7 @@ Full documentation: [System Architecture Overview](./architecture/system-archite
 
 ## Screenshots
 
-English UI captures from the **Call Helper** application — onboarding flow, agent workspace, and admin operations.
+UI captures from the **Call Helper** application — onboarding flow, agent workspace, and admin operations.
 
 ### Start Page
 
@@ -139,7 +139,7 @@ Vector asset: [`assets/ch-logo.svg`](./assets/ch-logo.svg)
 
 ### Live Indicators (Dashboard)
 
-Operational dashboard — live indicators with **This month** filter and services rail.
+Operational dashboard — live indicators and services rail.
 
 ![Live indicators — This month](https://raw.githubusercontent.com/hudaalzharani-commits/Call-Helper-showcase/main/screenshots/en-live-indicators-month.png)
 
